@@ -12,6 +12,6 @@ wait a while until the Tensorflow Docker image extract. Be patient...
 then:
 
 ```
-curl http://localhost:8080/function/func_tensorflow -d \
+curl http://localhost:8080/function/tensorflow -d \
        'https://cdn.pixabay.com/photo/2016/07/10/21/47/cat-1508613_960_720.jpg'
 ```
