@@ -7,7 +7,7 @@ functions:
   tensorflow:
     lang: python
     handler: .
-    image: jmkhael/faas-tensorflow:latest
+    image: jmkhael/faas-tensorflow:2.0
     environment:
       TF_CPP_MIN_LOG_LEVEL: "3"
       read_timeout: "20"
