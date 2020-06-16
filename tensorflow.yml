@@ -6,7 +6,7 @@ provider:
 functions:
   tensorflow:
     lang: python
-    handler: ./sample/tensorflow
+    handler: .
     image: jmkhael/faas-tensorflow:latest
     environment:
       TF_CPP_MIN_LOG_LEVEL: "3"
